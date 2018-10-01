@@ -1,0 +1,484 @@
+[
+  {
+    "description": "  Esse cenário de teste tem como objetivo realizar as validações de uma soma e subtração.",
+    "keyword": "Feature",
+    "name": "Cenário de Soma e Subtração",
+    "line": 4,
+    "id": "cenário-de-soma-e-subtração",
+    "tags": [
+      {
+        "name": "@soma_e_subtracao",
+        "line": 2
+      }
+    ],
+    "uri": "features/example/01-cenario-teste-soma-subtracao/01-cenario-teste-soma-subtracao.feature",
+    "elements": [
+      {
+        "id": "cenário-de-soma-e-subtração;realização-de-uma-soma-simples",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Realização de uma soma simples",
+        "tags": [
+          {
+            "name": "@soma_e_subtracao",
+            "line": 2
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/hooks.js:20"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "que eu tenho uma variável com o valor numérico 1",
+            "match": {
+              "location": "features/example/01-cenario-teste-soma-subtracao/01-cenario-teste-soma-subtracao.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "eu incremento o valor desta variável com mais 1",
+            "match": {
+              "location": "features/example/01-cenario-teste-soma-subtracao/01-cenario-teste-soma-subtracao.js:10"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "o valor da variável passa a ser 23",
+            "match": {
+              "location": "features/example/01-cenario-teste-soma-subtracao/01-cenario-teste-soma-subtracao.js:14"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/hooks.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "cenário-de-soma-e-subtração;realização-de-uma-subtração-simples",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Realização de uma subtração simples",
+        "tags": [
+          {
+            "name": "@soma_e_subtracao",
+            "line": 2
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/hooks.js:20"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "que eu tenho uma variável com o valor numérico 10",
+            "match": {
+              "location": "features/example/01-cenario-teste-soma-subtracao/01-cenario-teste-soma-subtracao.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "eu subtraio o valor desta variável com o valor 3",
+            "match": {
+              "location": "features/example/01-cenario-teste-soma-subtracao/01-cenario-teste-soma-subtracao.js:20"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "o valor da variável passa a ser 7",
+            "match": {
+              "location": "features/example/01-cenario-teste-soma-subtracao/01-cenario-teste-soma-subtracao.js:14"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/hooks.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "cenário-de-soma-e-subtração;realização-de-uma-subtração-simples",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Realização de uma subtração simples",
+        "tags": [
+          {
+            "name": "@soma_e_subtracao",
+            "line": 2
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/hooks.js:20"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "que eu tenho uma variável com o valor numérico 100",
+            "match": {
+              "location": "features/example/01-cenario-teste-soma-subtracao/01-cenario-teste-soma-subtracao.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "eu subtraio o valor desta variável com o valor 33",
+            "match": {
+              "location": "features/example/01-cenario-teste-soma-subtracao/01-cenario-teste-soma-subtracao.js:20"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "o valor da variável passa a ser 77",
+            "match": {
+              "location": "features/example/01-cenario-teste-soma-subtracao/01-cenario-teste-soma-subtracao.js:14"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/hooks.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "cenário-de-soma-e-subtração;realização-de-uma-subtração-simples",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Realização de uma subtração simples",
+        "tags": [
+          {
+            "name": "@soma_e_subtracao",
+            "line": 2
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/hooks.js:20"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "que eu tenho uma variável com o valor numérico 1000",
+            "match": {
+              "location": "features/example/01-cenario-teste-soma-subtracao/01-cenario-teste-soma-subtracao.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "eu subtraio o valor desta variável com o valor 333",
+            "match": {
+              "location": "features/example/01-cenario-teste-soma-subtracao/01-cenario-teste-soma-subtracao.js:20"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "o valor da variável passa a ser 777",
+            "match": {
+              "location": "features/example/01-cenario-teste-soma-subtracao/01-cenario-teste-soma-subtracao.js:14"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/hooks.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": " Esse cenário de teste tem como objetivo realizar as validações de uma soma e de multiplicações.",
+    "keyword": "Feature",
+    "name": "Cenário de Teste Matemático",
+    "line": 5,
+    "id": "cenário-de-teste-matemático",
+    "tags": [
+      {
+        "name": "@expressao",
+        "line": 3
+      }
+    ],
+    "uri": "features/example/02-cenario-teste-expessao/02-cenario-teste-expessao.feature",
+    "elements": [
+      {
+        "id": "cenário-de-teste-matemático;realização-de-uma-expressão-simples",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Realização de uma expressão simples",
+        "tags": [
+          {
+            "name": "@expressao",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/hooks.js:34"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "que eu tenho uma variável com o valor 1",
+            "match": {
+              "location": "features/example/02-cenario-teste-expessao/02-cenario-teste-expessao.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "eu multiplico o valor desta variável com pelo valor numérico 2",
+            "match": {
+              "location": "features/example/02-cenario-teste-expessao/02-cenario-teste-expessao.js:10"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "adiciono o número 2",
+            "match": {
+              "location": "features/example/02-cenario-teste-expessao/02-cenario-teste-expessao.js:14"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "o valor da variável multiplicada passa a ser 4",
+            "match": {
+              "location": "features/example/02-cenario-teste-expessao/02-cenario-teste-expessao.js:18"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/hooks.js:41"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "cenário-de-teste-matemático;realização-de-uma-expressão-simples",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Realização de uma expressão simples",
+        "tags": [
+          {
+            "name": "@expressao",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/hooks.js:34"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "que eu tenho uma variável com o valor 3",
+            "match": {
+              "location": "features/example/02-cenario-teste-expessao/02-cenario-teste-expessao.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "eu multiplico o valor desta variável com pelo valor numérico 4",
+            "match": {
+              "location": "features/example/02-cenario-teste-expessao/02-cenario-teste-expessao.js:10"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "adiciono o número 5",
+            "match": {
+              "location": "features/example/02-cenario-teste-expessao/02-cenario-teste-expessao.js:14"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "o valor da variável multiplicada passa a ser 17",
+            "match": {
+              "location": "features/example/02-cenario-teste-expessao/02-cenario-teste-expessao.js:18"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/hooks.js:41"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
