@@ -1,7 +1,7 @@
 {
   "name": "cucumberjs-example",
   "version": "0.0.1",
-  "description": "A project using CucumberJS to implements BDD process - in a architecture including GraphQL and REST APIs.",
+  "description": "A project using CucumberJS to implements BDD process.",
   "main": "index.js",
   "scripts": {
     "test": "cucumber-js -f json:report/cucumber_report.json",
@@ -23,7 +23,7 @@
     "joi-assert": "0.0.3"
   },
   "contributors": [
-    "Maiara Rodrigues - https://github.com/maiararsensedia"
+    "Maiara Rodrigues - https://github.com/maiarar"
   ],
   "engines": {
     "node": "8.0.0"

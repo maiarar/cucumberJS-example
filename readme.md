@@ -1,0 +1,1 @@
+Projeto criado para exemplificar a implementação de cenários de teste a nível de negócio com o CucumberJS.
